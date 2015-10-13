@@ -1,0 +1,42 @@
+[
+  {
+    "file" : "a2ps-4.14.c",
+    "loc" : 64590
+  },
+  {
+    "file" : "bison-2.5.c",
+    "loc" : 101807
+  },
+  {
+    "file" : "less-382.c",
+    "loc" : 23426
+  },
+  {
+    "file" : "make-3.76.1.c",
+    "loc" : 27304
+  },
+  {
+    "file" : "mp3c-0.29.c",
+    "loc" : 15799
+  },
+  {
+    "file" : "parser.c",
+    "loc" : 10900
+  },
+  {
+    "file" : "screen-4.0.2.c",
+    "loc" : 44734
+  },
+  {
+    "file" : "wget-1.9.c",
+    "loc" : 35018
+  },
+  {
+    "file" : "urjtag-r1479.c",
+    "loc" : 64209
+  },
+  {
+    "file" : "raptor-1.4.21.c",
+    "loc" : 76378
+  }
+]

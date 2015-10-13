@@ -1,0 +1,168 @@
+
+
+
+cd ./sendmail/s1; ca-bad < s1.in >& ca-bad.out
+
+NORMAL
+
+
+
+cd ./sendmail/s1; ca-ok < s1.in >& ca-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s2; ge-bad  >& ge-bad.out
+
+NORMAL
+
+
+
+cd ./sendmail/s2; ge-ok  >& ge-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s3; m1-bad s3.in >& m1-bad.out
+
+NORMAL
+
+
+
+cd ./sendmail/s3; m1-ok s3.in >& m1-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s4; m2-bad s4.in >& m2-bad.out
+
+NORMAL
+
+
+
+cd ./sendmail/s4; m2-ok s4.in >& m2-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s5; prescan-bad  >& prescan-bad.out
+
+SEGFAULT
+
+
+
+cd ./sendmail/s5; prescan-ok  >& prescan-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s6; ttflag-bad -d 4294967200-100 >& ttflag-bad.out
+
+SEGFAULT
+
+
+
+cd ./sendmail/s6; ttflag-ok -d 4294967200-100 >& ttflag-ok.out
+
+NORMAL
+
+
+
+cd ./sendmail/s7; txtdns-bad  >& txtdns-bad.out
+
+SEGFAULT
+
+
+
+cd ./sendmail/s7; txtdns-ok  >& txtdns-ok.out
+
+NORMAL
+
+
+
+cd ./bind/b1; nxt-bad  >& nxt-bad.out
+
+SEGFAULT
+
+
+
+cd ./bind/b1; nxt-ok  >& nxt-ok.out
+
+NORMAL
+
+
+
+cd ./bind/b2; sig-bad  >& sig-bad.out
+
+SEGFAULT
+
+
+
+cd ./bind/b2; sig-ok  >& sig-ok.out
+
+NORMAL
+
+
+
+cd ./bind/b3; iquery-bad b3.in >& iquery-bad.out
+
+SEGFAULT
+
+
+
+cd ./bind/b3; iquery-ok b3.in >& iquery-ok.out
+
+NORMAL
+
+
+
+cd ./bind/b4; nsl-bad b4.in >& nsl-bad.out
+
+SEGFAULT
+
+
+
+cd ./bind/b4; nsl-ok b4.in >& nsl-ok.out
+
+NORMAL
+
+
+
+cd ./wu-ftpd/f1; mp-bad f1.in >& mp-bad.out
+
+NORMAL
+
+
+
+cd ./wu-ftpd/f1; mp-ok f1.in >& mp-ok.out
+
+NORMAL
+
+
+
+cd ./wu-ftpd/f2; obo-bad /tmp/foo/bar/foo/bar/foo/bar/foo/bar/abcdefgh >& obo-bad.out
+
+NORMAL
+
+
+
+cd ./wu-ftpd/f2; obo-ok /tmp/foo/bar/foo/bar/foo/bar/foo/bar/abcdefgh >& obo-ok.out
+
+NORMAL
+
+
+
+cd ./wu-ftpd/f3; rp-bad /aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa >& rp-bad.out
+
+SEGFAULT
+
+
+
+cd ./wu-ftpd/f3; rp-ok /aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aaa/aa/aaa >& rp-ok.out
+
+NORMAL

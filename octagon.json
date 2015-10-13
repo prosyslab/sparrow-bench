@@ -1,0 +1,70 @@
+[
+  {
+    "file" : "barcode-0.96.c",
+    "loc" : 4460
+  },
+  {
+    "file" : "bc-1.06.c",
+    "loc" : 13093
+  },
+  {
+    "file" : "bison-2.5.c",
+    "loc" : 101807
+  },
+  {
+    "file" : "brutefir-1.0f.c",
+    "loc" : 103
+  },
+  {
+    "file" : "consol_calculator.c",
+    "loc" : 298
+  },
+  {
+    "file" : "dico-2.0.c",
+    "loc" : 84333
+  },
+  {
+    "file" : "e2ps-4.34.c",
+    "loc" : 6222
+  },
+  {
+    "file" : "httptunnel-3.3.c",
+    "loc" : 6174
+  },
+  {
+    "file" : "icecast-server-1.3.12.c",
+    "loc" : 25509
+  },
+  {
+    "file" : "id3-0.15.c",
+    "loc" : 512
+  },
+  {
+    "file" : "irmp3-ncurses-0.5.3.1.c",
+    "loc" : 3797
+  },
+  {
+    "file" : "less-382.c",
+    "loc" : 23822
+  },
+  {
+    "file" : "lsh-2.0.4.c",
+    "loc" : 110898
+  },
+  {
+    "file" : "mp3rename-0.6.c",
+    "loc" : 2466
+  },
+  {
+    "file" : "pies-1.2.c",
+    "loc" : 66196
+  },
+  {
+    "file" : "raptor-1.4.21.c",
+    "loc" : 76378
+  },
+  {
+    "file" : "spell-1.0.c",
+    "loc" : 2213
+  }
+]
